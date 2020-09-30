@@ -1,6 +1,6 @@
 /**
  * -------------------
- *  Defult CSS 
+ *  Defult CSS
  * -------------------
  */
 html {
@@ -19,7 +19,7 @@ body{
     position:               relative;
     color:                 $paragraph-color;
     opacity:                0.9;
-    
+
     // &.dark-vertion {
     //     color: $white;
     //     a, h2, h3, h4, h5. h6, p, address, span {
@@ -145,7 +145,7 @@ a {
  *  Video Section Background Defult Style
  * --------------------------------------
  */
-.section-video { 
+.section-video {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -308,7 +308,7 @@ a {
             width: 14px;
         }
     }
-    
+
     &.btn-fill {
         background-color: $main-color;
         color: $white;
@@ -331,7 +331,7 @@ a {
         // font-weight: 300;
         // border: 1px solid;
         // padding: 18px 25px;
-        
+
         &:hover {
             // border-color: darken($main-color-1, 5%);
         }
@@ -425,11 +425,11 @@ a {
 
 
 
-.btn.active.focus, 
-.btn.active:focus, 
-.btn.focus, 
-.btn:active.focus, 
-.btn:active:focus, 
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
 .btn:focus {
     outline: thin dotted;
     outline: 0px auto -webkit-focus-ring-color !important;
@@ -451,7 +451,7 @@ a {
 
 
 
-/** 
+/**
  * -----------------
  * Social Icon Style
  * -----------------
@@ -475,7 +475,7 @@ a {
             border-radius: 50%;
             // background-color: $main-color-1;
             // color: fade($light-color, 100%);
-            
+
             &:hover,
             &:focus {
                 // background-color: $main-color-3;
@@ -503,9 +503,9 @@ a {
         // background-color: $background-2;
     }
 }
-.subscription-success, 
-.subscription-failed, 
-.email-success, 
+.subscription-success,
+.subscription-failed,
+.email-success,
 .email-failed,
 .email-loading {
     font-size: 15px;
@@ -516,7 +516,7 @@ a {
 
 .email-loading {
     color: #52B8FF;
-    
+
     img {
         width: 15px;
         position: relative;
@@ -524,7 +524,7 @@ a {
     }
 }
 
-.subscription-failed, 
+.subscription-failed,
 .email-failed{
     color: #FF5252 !important;
 
@@ -535,19 +535,19 @@ a {
     }
 }
 
-.subscription-success, 
+.subscription-success,
 .email-success {
     color: #56CC35;
 }
 
-.subscription-failed, 
+.subscription-failed,
 .email-failed,
-.subscription-success, 
+.subscription-success,
 .email-success {
     .icon {
         font-size: 20px;
         position: relative;
-        top: 5px;    
+        top: 5px;
     }
 }
 
@@ -718,7 +718,7 @@ button {
     &:focus {
         // @include box-shadow(0px, 0px, 2px, 0px, rgba($main-color, 1), false);
        @include box-shadow($color-shadows-contact-2x);
-        border-color: transparent;    
+        border-color: transparent;
     }
 }
 .contact-message {
