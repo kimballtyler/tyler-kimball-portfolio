@@ -3891,4 +3891,10 @@ BLOG Pagination
     margin-bottom: 5px;
 }
 
+@media only screen and (max-width: 600px) {
+  .know-gif {
+    max-height:700px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
