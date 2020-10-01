@@ -3893,7 +3893,8 @@ BLOG Pagination
 
 @media only screen and (max-width: 600px) {
   .know-gif {
-    max-height:700px;
+    max-height:500px;
+    max-width: 200px;
   }
 }
 
